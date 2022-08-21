@@ -1,0 +1,19 @@
+footer p {
+    text-align: center;
+    color: white;
+
+
+}
+
+footer {
+    background-color: black;
+    height: 80px;
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
+
+
+}

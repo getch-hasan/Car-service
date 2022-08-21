@@ -1,0 +1,14 @@
+.service{
+    border: solid 1px rgb(229, 226, 226);
+    border-radius: 10px;
+    box-shadow: whitesmoke 10px 10px;
+    padding: 8px;
+    text-align: center;
+  
+
+}
+.service img{
+    border-radius: 10px;
+}
+
+ 
