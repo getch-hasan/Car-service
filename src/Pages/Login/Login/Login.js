@@ -6,6 +6,7 @@ import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';
 const Login = () => {
 
 
@@ -56,6 +57,9 @@ const Login = () => {
     }
     return (
         <div className='mt-5 pt-3'>
+            <Helmet>
+                <title>Login</title>
+            </Helmet>
 
             <Form onSubmit={handlesubmit} className='w-50 mx-auto mt-5'>
                 <h1>Please Login</h1>

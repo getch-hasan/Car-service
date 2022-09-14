@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import expart1 from '../../../images/experts/expert-1.jpg';
 import expart2 from '../../../images/experts/expert-2.jpg';
 import expart3 from '../../../images/experts/expert-3.jpg';
@@ -18,6 +19,9 @@ const Exparts = () => {
 
     return (
         <div className='container'>
+            <Helmet>
+                <title>experts</title>
+            </Helmet>
             <h1 className='text-primary mt-4 text-center'>Our Experts</h1>
             <div class="row ">
                 {

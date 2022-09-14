@@ -31,13 +31,13 @@ const Header = () => {
               <Nav.Link href="home#experts">Experts</Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
+                <NavDropdown.Item as ={Link} to="/add">
+                 Add service
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/action">Something</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item as={Link} to="/manage">
+                  manage
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
